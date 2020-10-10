@@ -1,9 +1,9 @@
-# example-webpack-plugin-github-action
+# example-cli-github-action
 
-[![ci](https://github.com/relative-ci/example-webpack-plugin-github-action/workflows/ci/badge.svg)](https://github.com/relative-ci/example-webpack-plugin-github-action/actions?query=workflow%3Aci)
-[![RelativeCI](https://badges.relative-ci.com/badges/7OUGcZsX5e4QBYcecng1?branch=master)](https://app.relative-ci.com/projects/7OUGcZsX5e4QBYcecng1)
+[![ci](https://github.com/relative-ci/example-cli-github-action/workflows/ci/badge.svg)](https://github.com/relative-ci/example-cli-github-action/actions?query=workflow%3Aci)
+[![RelativeCI](https://badges.relative-ci.com/badges/o1LoGhgroz0LFHx4sTuM?branch=master)](https://app.relative-ci.com/projects/o1LoGhgroz0LFHx4sTuM)
 
-> [@relative-ci/agent](https://github.com/relative-ci/agent) webpack plugin setup example for [Github Action](https://github.com/features/actions)
+> [@relative-ci/agent](https://github.com/relative-ci/agent) CLI setup example for [Github Action](https://github.com/features/actions)
 
 
 ## Example app

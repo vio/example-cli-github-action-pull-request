@@ -1,5 +1,5 @@
 {
-  "name": "example-webpack-plugin-github-action",
+  "name": "example-cli-github-action",
   "version": "1.0.0",
   "description": "@relative-ci/agent webpack plugin setup example for Github Action",
   "main": "index.js",
@@ -16,9 +16,9 @@
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/relative-ci/example-react-webpack/issues"
+    "url": "https://github.com/relative-ci/example-cli-github-action/issues"
   },
-  "homepage": "https://github.com/relative-ci/example-react-webpack#readme",
+  "homepage": "https://github.com/relative-ci/example-cli-github-action#readme",
   "devDependencies": {
     "@babel/core": "^7.11.6",
     "@babel/preset-env": "^7.11.5",
