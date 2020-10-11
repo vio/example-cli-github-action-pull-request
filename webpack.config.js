@@ -94,17 +94,6 @@ module.exports = (_, { mode }) => {
           },
         ],
       }),
-      new StatsWriterPlugin({
-        filename: '../artifacts/webpack-stats.json',
-        stats: {
-          context: './src', // optional, will improve readability of the paths
-          assets: true,
-          entrypoints: true,
-          chunks: true,
-          modules: true,
-          sources: false,
-        },
-      }),
     ],
     devServer: {
       hot: true,
