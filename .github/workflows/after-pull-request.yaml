@@ -1,4 +1,4 @@
-name: After Pull Request
+name: Stats
 
 on:
   workflow_run:
@@ -14,8 +14,7 @@ jobs:
         node-version: [14.x]
 
     if: >
-      ${{ github.event.workflow_run.event == 'pull_request' &&
-      github.event.workflow_run.conclusion == 'success' }}
+      ${{ github.event.workflow_run.event == 'pull_request' && github.event.workflow_run.conclusion == 'success' }}
 
     steps:
       - uses: actions/checkout@v2
@@ -50,7 +49,7 @@ jobs:
             });
 
             var matchArtifact = artifacts.data.artifacts.filter((artifact) => {
-              return artifact.name == "pr"
+              return artifact.name == "artifacts"
             })[0];
 
             var download = await github.actions.downloadArtifact({
