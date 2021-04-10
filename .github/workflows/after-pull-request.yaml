@@ -36,6 +36,8 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
+      - uses: hmarr/debug-action@v2
+
       - run: npm ci
 
       - name: 'Download artifact'
