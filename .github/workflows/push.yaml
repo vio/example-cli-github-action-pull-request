@@ -1,10 +1,9 @@
-name: ci
+name: Push
 
 on:
   push:
     branches:
       - master
-  pull_request:
 
 jobs:
   build:
@@ -43,3 +42,4 @@ jobs:
         env:
           RELATIVE_CI_KEY: ${{ secrets.RELATIVE_CI_KEY }}
           DEBUG: ${{ secrets.DEBUG }}
+
