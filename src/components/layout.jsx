@@ -13,7 +13,7 @@ export const Layout = (props) => {
         <Typography.Title level={4}>
           <a className={css.headerLink} href="https://relative-ci.com/documentation/examples">
             <img className={css.headerLogo} src={logoUrl} alt="RelativeCI" />
-            RelativeCI examples
+            RelativeCI examples (PR v1)
           </a>
         </Typography.Title>
       </header>
