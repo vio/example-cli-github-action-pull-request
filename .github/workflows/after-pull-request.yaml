@@ -24,8 +24,8 @@ jobs:
             // Read data from the event
             const event = require(process.env.GITHUB_EVENT_PATH);
             process.env.GITHUB_BRANCH = event.workflow_run.head_branch;
-            process.env.GITHUB_SHA = event.workflow_run.head_commit?.id;
-            process.env.GITHUB_MESSAGE = event.workflow_run.head_commit?.message;
+            process.env.GITHUB_SHA = event.workflow_run.head_commit.id;
+            process.env.GITHUB_MESSAGE = event.workflow_run.head_commit.message;
 
       - uses: actions/checkout@v2
 
